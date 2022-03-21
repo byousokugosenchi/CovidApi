@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid API</title>
+    <link rel="stylesheet" type="text/css" href="dist/style.css" />
+
+</head>
+<body>
+    <div class="header">
+        <h1>Tra cứu dữ liệu Covid-19</h1>
+        <div class="search">
+            <input id="myinput" placeholder="Nhập mã/tên quốc gia" type="text">
+            <button id="xem">Xem</button>
+        </div>
+    </div>
+
+    <div class="table">
+        <table id='tb-1'>
+            <thead>
+                <tr style="background-color: #3d486c;">
+                    <th>Quốc gia</th>
+                    <th>Số ca nhiễm</th>
+                    <th>Số ca nhiễm hôm nay</th>
+                    <th>Số ca chết</th>
+                    <th>Số ca chết hôm nay</th>
+                    <th>Số ca hồi phục</th>
+                    <th>Đang điều trị</th>
+                  </tr>
+            </thead>           
+          </table>
+          <div class="text"><p>*Viêt Nam chung tay chống dịch nCovid-19 cùng thế giới</p></div>
+    </div>
+    <div class="table-2">
+        <table id="tb-2">
+            <thead>
+                <tr style="background-color: #3d486c;">
+                  <th>Quốc gia</th>
+                  <th>Số ca nhiễm</th>
+                  <th>Số ca nhiễm hôm nay</th>
+                  <th>Số ca chết</th>
+                  <th>Số ca chết hôm nay</th>
+                  <th>Số ca hồi phục</th>
+                  <th>Đang điều trị</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="global-btn">
+        <button class="see_more">Xem thêm</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
